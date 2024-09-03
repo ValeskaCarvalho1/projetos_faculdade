@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #024217;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #03a138;
+}
+
+nav ul li a:visited {
+    background-color: #03a138;
+}
+
+#content {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #024217;
+    color: white;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+#foto-eu {
+
+    width: 200px;
+
+}
+
+#link-meugit {
+
+    display: inline-block;
+    background-color: #024217; /* Cor de fundo vermelho */
+    color: #e4e7dd; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remover sublinhado do link */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s ease; 
+}
+#link-meugit:hover {
+    background-color: #03a138;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ocupa 100% da largura do contêiner pai */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    background-color: #024217; /* Fundo vermelho para o botão */
+    color: #ffffff; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mãozinha ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+input[type="submit"]:hover {
+    background-color: #03a138; /* Cor mais escura ao passar o mouse */
+}
+
+.form-container {
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar o formulário */
+    width: 100%; /* Largura total */
+    max-width: 400px; /* Largura máxima */
+}
+
+.container {
+    display: flex; /* Define um layout flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    padding: 8px;
+}
+
+/* Estilo da imagem */
+.container img {
+    max-width: 800px; /* Largura máxima da imagem */
+    margin-right: 30px; /* Espaçamento à direita da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+}
